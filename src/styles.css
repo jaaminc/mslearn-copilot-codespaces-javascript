@@ -123,3 +123,114 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* add an amazing animation to the social icons */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+a img.socialIcon:hover {
+  animation: bounce 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+/* add a cool animation to the hamburger */
+@keyframes hamburger {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+div.hamburger {
+  display: none;
+  height: 40px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 40px;
+}
+
+div.hamburger img {
+  height: 40px;
+  width: 40px;
+}
+
+div.hamburger img:hover {
+  animation: hamburger 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+nav ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+  color: #4e567e;
+}
+
+nav ul li a.active {
+  color: #4e567e;
+}
+
+/* add a cool animation to the social icons */
+@keyframes social {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* add a cool animation to the social icons */
+@keyframes social {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* add a cool animation to the social icons */
+@keyframes social {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
